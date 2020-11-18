@@ -5,8 +5,7 @@ To Run this Project, download the code and go to the source folder and run 'npm 
 
 To run the test scripts, use the command 'npm run test'.
 
-To execute the code and get the desired result: run the command : node ./src/co2-calculator <command line arguments>
-
+To execute the code and get the desired result: run the command : npm run start -- <command line arguments>
 
 Valid Command Line Arguments and its values : 
 
@@ -37,5 +36,5 @@ Valid Command Line Arguments and its values :
    
 
 Examples : 
-node ./src/co2-calculator --transportation-method medium-diesel-car --distance 15 --unit-of-distance km
-node ./src/co2-calculator --transportation-method train --distance 14500 --unit-of-distance m --output kg
+npm run start -- --transportation-method medium-diesel-car --distance 15 --unit-of-distance km
+npm run start -- --transportation-method train --distance 14500 --unit-of-distance m --output kg

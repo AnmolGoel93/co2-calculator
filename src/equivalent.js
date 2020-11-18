@@ -4,12 +4,12 @@ function getEquiVal(distanceInKM, transMthdVal, distanceUnit) {
     if(distanceUnit === 'kg') {
         equivalent = equivalent / 1000;
         equivalent = equivalent.toFixed(1);
-    }    
+    }
 
     return equivalent;
 }
 
-function getDistanceUnit(outputUnit, unit) {
+function getDistanceUnit(unit, outputUnit) {
     if(outputUnit) {
         distanceUnit = outputUnit;
     } else {
@@ -32,7 +32,7 @@ function getdistanceInKM(distance, unit) {
 }
 
 function getEquivalent(distance, transMthdVal, unit, outputUnit) {
-    let distanceUnit = getDistanceUnit(outputUnit, unit);
+    let distanceUnit = getDistanceUnit(unit, outputUnit);
 
     let distanceInKM = getdistanceInKM(distance, unit);
 

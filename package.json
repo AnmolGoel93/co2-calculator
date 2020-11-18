@@ -5,7 +5,7 @@
   "main": "./src/co2-calculator.js",
   "scripts": {
     "test": "mocha",
-    "start": "node ./src/co2-calculator.js" 
+    "start": "node ./src/co2-calculator.js"
   },
   "author": "Anmol Goel",
   "license": "ISC",
